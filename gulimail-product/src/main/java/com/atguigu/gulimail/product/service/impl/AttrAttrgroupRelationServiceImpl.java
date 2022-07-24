@@ -41,5 +41,8 @@ public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupR
         }).collect(Collectors.toList());
         this.saveBatch(collect);
     }
+    void Testinterface(){
+        System.out.println("我更改了这里");
+    }
 
 }
