@@ -199,6 +199,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
                     //失败
                     //throw new NoStockException(msg);
                     responseVo.setCode(3);
+                    System.out.println(responseVo);
                     return responseVo;
                 }
             } else {
